@@ -7,7 +7,7 @@ In this presentation I will look at the different aspects of microservice intera
 
 
 ### Ideas
-- libreate and conservative rule
+- libreate and conservative rule for APIs
 - API secure, latent, performant, cacheable, etc.
 -- Principles of Package design, SOLID!
 -- API changeabiltiy, versiongin
@@ -29,3 +29,4 @@ In this presentation I will look at the different aspects of microservice intera
 - Circuit breakers
 - No such thing as unbounded queue => Java tread pool
 - Example: Remote call at startup -> rollback stuck (StyxPres)
+- Separate critical paths and various workloads (sync/async, queue as a backpressure) => example LOMS
