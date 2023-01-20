@@ -29,6 +29,6 @@ In this presentation I will look at the different aspects of microservice intera
 - 12factor rules apply - request/reply queue example from Mark Richards
 - Latency metrics and fallacies - design principle
 - Circuit breakers
-- No such thing as unbounded queue => Java tread pool
+- No such thing as unbounded queue => Java tread pool (Little's law)
 - Example: Remote call at startup -> rollback stuck (StyxPres)
 - Separate critical paths and various workloads (sync/async, queue as a backpressure) => example LOMS
