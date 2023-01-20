@@ -18,6 +18,8 @@ In this presentation I will look at the different aspects of microservice intera
 - Existing microservice 
 - Size of microservice (drivers, SRP, bounded context, rewrite)
 - OSI model from Distributed Systems 3rd Edition
+- Service Mesh (Circuit breaker, backpressure differences)
+- A little bit of SRE
 
 ### Additional Notes
 - sync VS async (which one is better, timeouts, failure scenarios in sync mode)
