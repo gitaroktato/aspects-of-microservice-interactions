@@ -1,33 +1,12 @@
 # Aspects of Microservice Interactions
-What are the recent challenges of microservice interactions? Have you ever had issues with service-to-service calls that were especially hard to manage? Were you wondering about the reasons? Unfortunately, there are some rules we can not bend. For instance, we can't modify the laws of physics and statistics. But luckily some problems are easily solvable.
+
+What are the recent challenges of microservice interactions? Have you ever had issues with service-to-service calls that were particularly challenging to manage? Were you wondering about the reasons? Unfortunately, there are some rules we cannot bend. For instance, we can't modify the laws of physics and statistics. But luckily some problems are easily solved.
+
 
 In this presentation, I will look at the different aspects of microservice interactions and show some practical problems & solutions I faced. In this way, you can stand your ground better in similar situations.
 
+[BIO](BIO.md)
+[Slides](Aspects_of_Microservice_Interactions.pptx)
 
-
-### Ideas
-- libreate and conservative rule for APIs
-- API secure, latent, performant, cacheable, etc.
--- Principles of Package design, SOLID!
--- API changeabiltiy, versiongin
-- resiliency ...
-- Existing talks (sync, async, Martin Kleppman two generals)
-- Sam Newmann, versioning, runtime dependency, etc.
-- sync vs async (little's law, queuing theory)
-- Existing microservice 
-- Size of microservice (drivers, SRP, bounded context, rewrite)
-- OSI model from Distributed Systems 3rd Edition
-- Service Mesh (Circuit breaker, backpressure differences)
-- A little bit of SRE
-
-### Additional Notes
-- sync VS async (which one is better, timeouts, failure scenarios in sync mode)
-- Architecture patterns => SAGA
-- Example: Shopping cart: Fallback to sync mode and polling
-- Example: Message ordering - Randy Shoup
-- 12factor rules apply - request/reply queue example from Mark Richards
-- Latency metrics and fallacies - design principle
-- Circuit breakers
-- No such thing as unbounded queue => Java tread pool (Little's law)
-- Example: Remote call at startup -> rollback stuck (StyxPres)
-- Separate critical paths and various workloads (sync/async, queue as a backpressure) => example LOMS
+[Microservices Availability Simulator](https://github.com/gitaroktato/microservices-availability-simulator)
+[Rate-Limiting Example](https://github.com/gitaroktato/system-design-excercises/tree/main/rate-limiting)
