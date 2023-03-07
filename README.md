@@ -5,8 +5,8 @@ What are the recent challenges of microservice interactions? Have you ever had i
 
 In this presentation, I will look at the different aspects of microservice interactions and show some practical problems & solutions I faced. In this way, you can stand your ground better in similar situations.
 
-[BIO](BIO.md)
-[Slides](Aspects_of_Microservice_Interactions.pptx)
+- [BIO](BIO.md)
+- [Slides](Aspects_of_Microservice_Interactions.pptx)
 
-[Microservices Availability Simulator](https://github.com/gitaroktato/microservices-availability-simulator)
-[Rate-Limiting Example](https://github.com/gitaroktato/system-design-excercises/tree/main/rate-limiting)
+- [Microservices Availability Simulator](https://github.com/gitaroktato/microservices-availability-simulator)
+- [Rate-Limiting Example](https://github.com/gitaroktato/system-design-excercises/tree/main/rate-limiting)
